@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LevelSelector/Theater 1/Theater1.unity
     guid: 1d25ee6cb48e30949afb94cb110a70f8
+  - enabled: 1
+    path: Assets/Scenes/LevelSelector/Theater 2/Theater2.unity
+    guid: de7b67fa12eb897499729a09ad334f65
+  - enabled: 1
+    path: Assets/Scenes/LevelSelector/Theater 3/Theater3.unity
+    guid: 7ccfc73f30d5bec48a05d4257b22594d
   m_configObjects: {}
