@@ -823,8 +823,8 @@ Transform:
   m_GameObject: {fileID: 193163178}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 17.1913, y: 9.5, z: 10.006905}
-  m_LocalScale: {x: 23.604584, y: 9.9425, z: 1}
+  m_LocalPosition: {x: 20.8281, y: 9.5, z: 10.006905}
+  m_LocalScale: {x: 23.604584, y: 17.216434, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 187023899}
@@ -1308,9 +1308,9 @@ MonoBehaviour:
   m_Follow: {fileID: 2055597489}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 5.8
-    NearClipPlane: -0.5
-    FarClipPlane: 1232.101
+    OrthographicSize: 6.24
+    NearClipPlane: 9
+    FarClipPlane: 1262
     Dutch: 0
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
@@ -3737,8 +3737,8 @@ Transform:
   m_GameObject: {fileID: 1070460582}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -13.8803, y: 9.486, z: 10.006905}
-  m_LocalScale: {x: 23.604584, y: 8.9705, z: 1}
+  m_LocalPosition: {x: -19.7579, y: 9.486, z: 10.006905}
+  m_LocalScale: {x: 23.604584, y: 20.725443, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 187023899}
@@ -4557,11 +4557,11 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: -0.5
-  far clip plane: 1232.101
+  near clip plane: 9
+  far clip plane: 1262
   field of view: 60
   orthographic: 1
-  orthographic size: 5.8
+  orthographic size: 6.24
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -5357,8 +5357,8 @@ Transform:
   m_GameObject: {fileID: 1538179913}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.8382, y: -5.3716, z: 10.006905}
-  m_LocalScale: {x: 40.128284, y: 8.0633, z: 1}
+  m_LocalPosition: {x: -0.1455, y: -5.3716, z: 10.006905}
+  m_LocalScale: {x: 59.818806, y: 8.0633, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 187023899}
@@ -6305,8 +6305,8 @@ Transform:
   m_GameObject: {fileID: 1764664765}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.9354, y: 24.8277, z: 10.006905}
-  m_LocalScale: {x: 40.06282, y: 9.0353, z: 1}
+  m_LocalPosition: {x: -4.1019, y: 27.778, z: 10.006905}
+  m_LocalScale: {x: 52.137753, y: 14.9362545, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 187023899}
@@ -7360,7 +7360,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
