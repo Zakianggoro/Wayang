@@ -7,14 +7,12 @@ public class PlayerMovement : MonoBehaviour
 
     public float moveSpeed;
     private Rigidbody2D rb;
-    // private Animator anim; // Commenting out Animator reference
     private bool facingRight = true;
     private float moveDirection;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        // anim = GetComponent<Animator>(); // Commenting out Animator initialization
     }
 
     // Update is called once per frame
@@ -55,12 +53,6 @@ public class PlayerMovement : MonoBehaviour
         {
             FlipCharacter();
         }
-
-        // Commenting out animation setting code
-        // if (anim != null)
-        // {
-        //     anim.SetBool("run", moveDirection != 0);
-        // }
     }
 
     private void FlipCharacter()
