@@ -1,7 +1,9 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class TeleportDoor : MonoBehaviour
+public class ToLobby : MonoBehaviour
 {
     private bool playerInRange;
 
@@ -9,7 +11,7 @@ public class TeleportDoor : MonoBehaviour
     {
         if (playerInRange && Input.GetKeyDown(KeyCode.E))
         {
-            SceneManager.LoadScene(4); 
+            SceneManager.LoadScene(3); 
         }
     }
 
@@ -18,6 +20,7 @@ public class TeleportDoor : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             playerInRange = true;
+            Debug.Log("Player entered trigger area");
         }
     }
 
@@ -26,6 +29,7 @@ public class TeleportDoor : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             playerInRange = false;
+            Debug.Log("Player exited trigger area");
         }
     }
 }

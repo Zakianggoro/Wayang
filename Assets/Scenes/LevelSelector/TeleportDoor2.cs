@@ -11,7 +11,7 @@ public class TeleportDoor2 : MonoBehaviour
     {
         if (playerInRange && Input.GetKeyDown(KeyCode.E))
         {
-            SceneManager.LoadScene(4); // Change 3 to the appropriate scene index for Building Index 3
+            SceneManager.LoadScene(5); // Change 3 to the appropriate scene index for Building Index 3
         }
     }
 

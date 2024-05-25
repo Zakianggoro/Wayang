@@ -23,7 +23,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LevelSelector/Theater 2/Theater2.unity
     guid: de7b67fa12eb897499729a09ad334f65
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/LevelSelector/Theater 3/Theater3.unity
     guid: 7ccfc73f30d5bec48a05d4257b22594d
+  - enabled: 1
+    path: Assets/Scenes/Story 1/Prologe 1.unity
+    guid: 158ccbd2a97cabb4195d722637d898a3
   m_configObjects: {}
