@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LevelSelector/Theater 1/Story 1/ToMove.unity
     guid: 76a755d417408cc47891e050fad0a600
+  - enabled: 1
+    path: Assets/Scenes/BattleScene/Karna_Battle.unity
+    guid: 84321964505c96248ac8cbe74ef06b3f
   m_configObjects: {}
